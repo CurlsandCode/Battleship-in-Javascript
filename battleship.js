@@ -8,9 +8,9 @@ let guesses = 0;
 let isSunk = false;
 
 while (isSunk != true) {
-	prompt("Please type in a number between 0 and 6!")
+	guess = prompt("Please type in a number between 0 and 6!")
 	if (guess > 6 || guess < 0) {
-		prompt("Please type in a valid number between 0 and 6")
+		guess = prompt("Please type in a valid number between 0 and 6")
 	} else {
 		guesses += 1;
 	}
